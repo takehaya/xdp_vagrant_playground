@@ -3,7 +3,7 @@
 # install dependencies for building iproute2
 sudo apt update
 DEBIAN_FRONTEND=noninteractive sudo apt upgrade -y
-sudo apt install -y bison flex clang gcc llvm libelf-dev bc libssl-dev tmux trace-cmd cmake libdw-dev
+sudo apt install -y bison flex clang gcc llvm libelf-dev bc libssl-dev tmux trace-cmd cmake libdw-dev gcc-multilib libelf-dev
 
 # update iproute2
 sudo apt install -y pkg-config bison flex make gcc
